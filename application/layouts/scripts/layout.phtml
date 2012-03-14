@@ -1,0 +1,31 @@
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" 
+		content="text/html;charset=utf-8" />
+<script type="text/javascript">
+    var baseUrl = '<?php echo $this->baseUrl ()?>'; 
+    var username = '<?php echo $this->username?>'; 
+    var env = '<?php echo APPLICATION_ENV;?>';
+</script>
+<?php echo $this->headMeta ();?>
+<?php echo $this->headTitle ();?>
+<?php echo $this->headLink ()->prependStylesheet ( $this->baseUrl () . '/extjs/resources/css/ext-all.css' );?>
+<?php echo $this->headLink ()->prependStylesheet ( $this->baseUrl () . '/css/application.css' );?>
+<?php
+if(APPLICATION_ENV=='production'){
+    $this->headScript()->appendFile( $this->baseUrl () . '/extjs/ext-all.js');
+}else{ 
+    $this->headScript()->appendFile( $this->baseUrl () . '/extjs/ext-all-debug.js');
+}
+ $this->headScript()->appendFile( $this->baseUrl () . '/extjs/examples/ux/PreviewPlugin.js');
+?>
+
+<?php  $this->headScript()->appendFile( $this->baseUrl () . '/javascripts/app.js') ?>
+<?php echo $this->headScript() ?>
+</head>
+<body>
+    <?php
+    echo $this->layout ()->content;
+    ?>
+</body>
+</html>

@@ -1,0 +1,8 @@
+nbproject/
+.settings/
+.buildpath
+.project
+public/extjs
+application/configs/application.ini
+public/images/icons
+.zfproject.xml

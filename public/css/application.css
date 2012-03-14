@@ -1,0 +1,98 @@
+
+
+
+.feed-grid .x-grid-row {
+    margin: 5px 20px 10px 25px !important;
+    color: #555;
+    display: block
+
+}
+
+
+.icon-dashboard{
+        background-image: url(../images/icons/icon_dashboard_16px.gif)  !important;
+}
+.icon-programacao{
+        background-image: url(../images/icons/iconeplano.jpg)  !important;
+}
+.icon-setores{
+        background-image: url(../images/icons/chart_organisation_add.png)  !important;
+}
+.item-lst{
+        background-image: url(../images/icons/application_view_detail.png)  !important;
+}
+.icon-file{
+        background-image: url(../images/icons/overlays.png)  !important;
+}
+
+.icon-org{
+        background-image: url(../images/icons/chart_organisation.png)  !important;
+}
+.icon-save{
+        background-image: url(../images/icons/accept.png)  !important;
+}
+
+.icon-cancel{
+        background-image: url(../images/icons/cancel.png)  !important;
+}
+.icon-delete{
+        background-image: url(../images/icons/delete.png)  !important;
+}
+
+.icon-edit{
+    background-image: url(../images/icons/pencil.png)  !important;
+}
+
+.icon-new{
+    background-image: url(../images/icons/add.png)  !important;
+}
+.icon-cadeado{
+    background-image: url(../images/icons/lock.png)  !important;
+}
+.icon-entrar{
+    background-image: url(../images/icons/application_go.png)  !important;
+}
+.icon-sair{
+    background-image: url(../images/icons/door_out.png)  !important;
+}
+.icon-home{
+    background-image: url(../images/icons/application_home.png)  !important;
+}
+
+.icon-user{
+    background-image: url(../images/icons/user.png)  !important;
+}
+.icon-admin{
+    background-image: url(../images/icons/config.png)  !important;
+}
+.icon-cargos{
+    background-image: url(../images/icons/cargos.jpg)  !important;
+}
+.icon-config{
+    background-image: url(../images/icons/icon_settings.gif)  !important;
+}
+.x-tree-noicon{
+    display: none;
+}
+.icon-attach{
+    background-image: url(../images/icons/attach.png)  !important;
+}
+.icon-attach-file{
+    background-image: url(../images/icons/page_attach.png)  !important;
+}
+.icon-tag{
+    background-image: url(../images/icons/tag_blue.png)  !important;
+
+}
+.tplDetail li {
+    font-size: 103%;
+    margin-left: 12px !important;
+    list-style: disc outside none !important;
+}
+.icon-upload{
+    background-image: url(../images/icons/upload2.jpg)  !important;
+}
+
+.icon-upload-send{
+    background-image: url(../images/icons/upload.jpg)  !important;
+}
